@@ -24,5 +24,7 @@ Tools in here
 	focused window between the left and the right screen. Requires
 	`xdotools`, `xwininfo`, and `xprop`. Requires that the resolution of the
 	screen to the left be specified manually (easiy fixed);
+1. `myfile`: if you call `file` withtout arguments, this script will call all
+	files in the current directory as arguments for you;
 1. `texclean`: removes LaTeX temporary files from the current directory, but
 	only if there is a single `.tex` file with a `\documentclass`.
