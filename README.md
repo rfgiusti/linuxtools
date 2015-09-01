@@ -19,4 +19,10 @@ Tools in here
 1. `archive`: attempts to collect data under a directory into a `tar.gz` file
 	with the same base name as the directory, then remove the directory;
 1. `calc-usage`: calculates the disk used by each subdirectory and reports them
-	in a sorted, human-readable form.
+	in a sorted, human-readable form;
+1. `move-window-to-screen`: if you are using two screens, move the currently
+	focused window between the left and the right screen. Requires
+	`xdotools`, `xwininfo`, and `xprop`. Requires that the resolution of the
+	screen to the left be specified manually (easiy fixed);
+1. `texclean`: removes LaTeX temporary files from the current directory, but
+	only if there is a single `.tex` file with a `\documentclass`.
