@@ -18,6 +18,10 @@ Tools in here
 
 1. `archive`: attempts to collect data under a directory into a `tar.gz` file
 	with the same base name as the directory, then remove the directory;
+1. `argdump`: dumps command-line arguments as-is. May be useful for quickly
+	checking how Bash handles some interesting one-liners. Unlike `echo`,
+	it shows one argument per line, and exposes newline characters in the
+	command line chain;
 1. `backlink`: finds symbolic links that point to a file;
 1. `calc-usage`: calculates the disk used by each subdirectory and reports them
 	in a sorted, human-readable form;

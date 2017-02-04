@@ -16,9 +16,12 @@
 # FIXME: check for xdotool, xwininfo, and xprop before going
 
 # FIXME: hard-coded screen info
-SCREEN_WIDTH=1200
-X_FIX=-1
-Y_FIX=-22
+# SCREEN_WIDTH refers to the width of the left screen. X_FIX and Y_FIX are
+# workarounds to prevent the window from being repositioned vertically and
+# horizontally when moved between screens
+SCREEN_WIDTH=1920
+X_FIX=-3
+Y_FIX=-29
 
 # Get window information
 window=`xdotool getwindowfocus`
